@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:meta="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_J08/1.20"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_J08/1.20">
+   <import namespace="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+           schemaLocation="form_xsd_metaschema.xsd"/>
+   <element name="Doc_NAV_J08"
+            type="tns:Doc_NAV_J08_Type"
+            meta:metaType="DocMetaType">
+      <annotation>
+         <documentation>Bejelentés adójegy és zárjegy felhasználásról és a Jöt. 77. § (1a) szerinti tevékenységről</documentation>
+      </annotation>
+   </element>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0001GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0002GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0003GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0004GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0005GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0006GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0007GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0008GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0009GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0010GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0011GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0012GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0013GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0014GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0015GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0016GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0017GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0018GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0019GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0020GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0021GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0022GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0023GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0024GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0025GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0026GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0BXXXXC0027GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0001GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0002GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0003GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0004GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0005GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0006GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0007GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0008GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0009GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0010GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0011GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0012GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0013GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0014GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0015GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0016GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0017GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0018GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0019GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0020GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0021GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0022GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0023GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0024GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0025GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0026GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0CXXXXC0027GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="411"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0001GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0002GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0003GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0004GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0005GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0006GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0007GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0008GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0009GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0010GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0011GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0012GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0013GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0014GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0015GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0016GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0017GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0018GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0019GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0020GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0021GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0022GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0023GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0024GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0025GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0026GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0DXXXXC0027GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="311"/>
+         <enumeration value="312"/>
+         <enumeration value="313"/>
+         <enumeration value="314"/>
+         <enumeration value="315"/>
+         <enumeration value="316"/>
+         <enumeration value="317"/>
+         <enumeration value="318"/>
+         <enumeration value="319"/>
+         <enumeration value="412"/>
+         <enumeration value="413"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0001GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0002GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0003GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0004GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0005GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0006GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0007GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0008GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0009GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0010GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0011GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0012GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0013GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0014GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0015GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0016GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0017GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0018GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0019GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0020GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0021GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0022GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0023GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0024GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0025GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0026GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_J08_0EXXXXC0027GA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="501"/>
+         <enumeration value="502"/>
+         <enumeration value="503"/>
+      </restriction>
+   </simpleType>
+   <complexType name="Doc_NAV_J08_Type">
+      <annotation>
+         <documentation>A teljes bizonylat szerkezetet leíró típus</documentation>
+      </annotation>
+      <sequence>
+         <element name="Form_NAV_J08"
+                  type="tns:Form_NAV_J08_Type"
+                  minOccurs="1"
+                  maxOccurs="1"
+                  meta:metaType="FormMetaType">
+            <annotation>
+               <documentation>NAV_J08 részbizonylat</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Form_NAV_J08_Type">
+      <annotation>
+         <documentation>A teljes nyomtatvány NAV_J08 részbiztonylatának szerkezetét leíró típus.</documentation>
+      </annotation>
+      <sequence>
+         <element name="Block_120001"
+                  type="tns:Block_NAV_J08_120001_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Azonosító adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120006"
+                  type="tns:Block_NAV_J08_120006_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Alkoholtermék és dohánygyártmány zárjegy-készlet felhasználási adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120065"
+                  type="tns:Block_NAV_J08_120065_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Alkoholtermék és dohánygyártmány zárjegy-készlet növekedés</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120098"
+                  type="tns:Block_NAV_J08_120098_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Alkoholtermék és dohánygyártmány zárjegy-készlet egyéb csökkenés</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120130"
+                  type="tns:Block_NAV_J08_120130_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Adójegy felhasználási adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120162"
+                  type="tns:Block_NAV_J08_120162_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Jöt. 77. § (1a) szerinti eltávolítás és megsemmisítés vagy felülragasztással érvénytelenítés</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Block_NAV_J08_120001_Type">
+      <annotation>
+         <documentation>Azonosító adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120002"
+                  type="tns:FieldGroup_NAV_J08_120002_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Azonosító adatok</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120004"
+                  type="tns:FieldGroup_NAV_J08_120004_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Tevékenység</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120005"
+                  type="tns:FieldGroup_NAV_J08_120005_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Bejelentés-azonosítás</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_J08_120006_Type">
+      <annotation>
+         <documentation>Alkoholtermék és dohánygyártmány zárjegy-készlet felhasználási adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120008"
+                  type="tns:Chain_NAV_J08_120008_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Zárjegy-készlet felhasználási adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_J08_120065_Type">
+      <annotation>
+         <documentation>Alkoholtermék és dohánygyártmány zárjegy-készlet növekedés</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120068"
+                  type="tns:Chain_NAV_J08_120068_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Zárjegy-készlet növekedési adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_J08_120098_Type">
+      <annotation>
+         <documentation>Alkoholtermék és dohánygyártmány zárjegy-készlet egyéb csökkenés</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120099"
+                  type="tns:Chain_NAV_J08_120099_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Zárjegy-készlet egyéb csökkenés</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_J08_120130_Type">
+      <annotation>
+         <documentation>Adójegy felhasználási adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120132"
+                  type="tns:Chain_NAV_J08_120132_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Adójegy felhasználási adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_J08_120162_Type">
+      <annotation>
+         <documentation>Jöt. 77. § (1a) szerinti eltávolítás és megsemmisítés vagy felülragasztással érvénytelenítés</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120163"
+                  type="tns:Chain_NAV_J08_120163_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Jöt. 77. § (1a) szerinti eltávolítás és megsemmisítés vagy felülragasztással érvénytelenítés</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Chain_NAV_J08_120008_Type">
+      <annotation>
+         <documentation>Zárjegy-készlet felhasználási adatok</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120009"
+                           type="tns:FieldGroup_NAV_J08_120009_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="2673">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120010"
+                           type="tns:FieldGroup_NAV_J08_120010_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Zárjegy-készlet felhasználási adatok</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Chain_NAV_J08_120068_Type">
+      <annotation>
+         <documentation>Zárjegy-készlet növekedési adatok</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120071"
+                           type="tns:FieldGroup_NAV_J08_120071_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme hátul</documentation>
+                     </annotation>
+                  </element>
+                  <element name="FieldGroup_120069"
+                           type="tns:FieldGroup_NAV_J08_120069_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="2673">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120070"
+                           type="tns:FieldGroup_NAV_J08_120070_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Zárjegy-készlet növekedési adatok</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Chain_NAV_J08_120099_Type">
+      <annotation>
+         <documentation>Zárjegy-készlet egyéb csökkenés</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120129"
+                           type="tns:FieldGroup_NAV_J08_120129_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme hátul</documentation>
+                     </annotation>
+                  </element>
+                  <element name="FieldGroup_120100"
+                           type="tns:FieldGroup_NAV_J08_120100_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="2673">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120101"
+                           type="tns:FieldGroup_NAV_J08_120101_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Zárjegy-készlet egyéb csökkenés</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Chain_NAV_J08_120132_Type">
+      <annotation>
+         <documentation>Adójegy felhasználási adatok</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120133"
+                           type="tns:FieldGroup_NAV_J08_120133_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="2673">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120134"
+                           type="tns:FieldGroup_NAV_J08_120134_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Adójegy felhasználási adatok</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Chain_NAV_J08_120163_Type">
+      <annotation>
+         <documentation>Jöt. 77. § (1a) szerinti eltávolítás és megsemmisítés vagy felülragasztással érvénytelenítés</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120164"
+                           type="tns:FieldGroup_NAV_J08_120164_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="2673">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120165"
+                           type="tns:FieldGroup_NAV_J08_120165_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Jöt. 77. § (1a) szerinti eltávolítás és megsemmisítés vagy felülragasztással érvénytelenítés</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120002_Type">
+      <annotation>
+         <documentation>Azonosító adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001E0105ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adószáma: (ZACIFELH_FEJ.ADOIG)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="11"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0106ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Engedélyszáma: (ZACIFELH_FEJ.ENGSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0109ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Neve: (ZACIFELH_FEJ.NEV)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0110ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Telephely címe: (ZACIFELH_FEJ.CIM1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0111ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Város Község (ZACIFELH_FEJ.CIM2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0112ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Pf. út/utca (ZACIFELH_FEJ.CIM3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="41"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0113ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>házszám (ZACIFELH_FEJ.CIM4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0114ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>emelet/ ajtó (ZACIFELH_FEJ.CIM5)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120004_Type">
+      <annotation>
+         <documentation>Tevékenység</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001G0107ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Zárjegy felhasználás/egyéb tevékenység: (ZARJEGY)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001G0103ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Felhasználás/egyéb tevékenység napja: (BTOL)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001G0108ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adójegy felhasználás: (ADOJEGY)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120005_Type">
+      <annotation>
+         <documentation>Bejelentés-azonosítás</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001F0100ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Újraküldés felhívás alapján: (HIANYPOTLAS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001F0101ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Javítás: (JAVITAS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D503A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hivatkozott ügyszám: (kapcsiktsz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120010_Type">
+      <annotation>
+         <documentation>Zárjegy-készlet felhasználási adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0BXXXXC0001KA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorszám (ZACIFELH_TET.SORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="5"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001GA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_J08_0BXXXXC0001GA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mozgásnem (ZACIFELH_TET.MNEM01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Megnevezés (P01_MEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="200"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>GTIN / hatósági termékazonosító (ZACIFELH_TET.EAN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kezdő sorszám (ZACIFELH_TET.SORSZTOL01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Záró sorszám (ZACIFELH_TET.SORSZIG01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kiszerelt termék mennyisége adó alapjául szolgáló menny.-ben (ZACIFELH_TET.MENNY01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kiszerelt termék mennyisége db* (ZACIFELH_TET.MENNYDB01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="7"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kiszerelt termék mennyisége liter (ZACIFELH_TET.LITER01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="9"/>
+                  <pattern value="[0-9,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Tételazonosító -tól (ZACIFELH_TET.TAZTOL01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001JA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Tételazonosító -ig (ZACIFELH_TET.TAZIG01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120009_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0BXXXXB0004PA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (ZACIFELH.TET.LAPSZAM)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(LAPTIPUS01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120070_Type">
+      <annotation>
+         <documentation>Zárjegy-készlet növekedési adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0CXXXXC0001KA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorszám (P02_ZACIFELH_EGYEB.SORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="5"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001GA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_J08_0CXXXXC0001GA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mozgásnem (P02_ZACIFELH_EGYEB.MNEM01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Megnevezés (P02_MEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="200"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kezdő sorszám (P02_ZACIFELH_EGYEB.SORSZTOL01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Záró sorszám (P02_ZACIFELH_EGYEB.SORSZIG01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>db (P02_ZACIFELH_EGYEB.DB01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="7"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Okmányszám (P02_ZACIFELH_EGYEB.OKM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Küldő telephely jövedéki száma (P02_ZACIFELH_EGYEB.ENGSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120071_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme hátul</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0CXXXXC001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Növekedés mindösszesen: (NOV_SUMDB2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[0-9+-]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC002A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(NOV_SUMDB)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[0-9+-]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC003A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(LAPTIPUS02)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120069_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0CXXXXB0004QA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (ZACIFELH.TET.LAPSZAM2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(LAPTIPUS01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120101_Type">
+      <annotation>
+         <documentation>Zárjegy-készlet egyéb csökkenés</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0DXXXXC0001KA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorszám (P03_ZACIFELH_EGYEB.SORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="5"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC0001GA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_J08_0DXXXXC0001GA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mozgásnem (P03_ZACIFELH_EGYEB.MNEM01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0DXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Megnevezés (P03_MEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="200"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC0001BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kezdő sorszám (P03_ZACIFELH_EGYEB.SORSZTOL01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Záró sorszám (P03_ZACIFELH_EGYEB.SORSZIG01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC0001DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>db (P03_ZACIFELH_EGYEB.DB01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="7"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Okmányszám (P03_ZACIFELH_EGYEB.OKM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC0001FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Fogadó telephely jövedéki száma (P03_ZACIFELH_EGYEB.ENGSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120129_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme hátul</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0DXXXXC001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Egyéb csökkenés mindösszesen: (CSOKK_SUMDB2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[0-9+-]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120100_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0DXXXXB0004RA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (ZACIFELH.TET.LAPSZAM3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC003A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(LAPTIPUS03)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0DXXXXC002A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(CSOKK_SUMDB)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[0-9+-]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120134_Type">
+      <annotation>
+         <documentation>Adójegy felhasználási adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0EXXXXC0001KA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorszám (P04_ZACIFELH_TET.SORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="5"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0EXXXXC0001GA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_J08_0EXXXXC0001GA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mozgásnem (P04_ZACIFELH_TET.MNEM01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0EXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Megnevezés (P04_MEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="200"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0EXXXXC0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>GTIN / hatósági termékazonosító (P04_ZACIFELH_TET.EAN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0EXXXXC0001BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kezdő sorszám (P04_ZACIFELH_TET.SORSZTOL01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0EXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Záró sorszám (P04_ZACIFELH_TET.SORSZIG01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0EXXXXC0001DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Dohánygyártmány mennyisége adó alapjául szolgáló mennyiségben (P04_ZACIFELH_TET.MENNY01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0EXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Dohánygyártmány mennyisége fogyasztói csomagolás szerinti mennyiségben (P04_ZACIFELH_TET.MENNYDB01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="7"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120133_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0EXXXXB0004PA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (ZACIFELH.TET.LAPSZAM4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0EXXXXC001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(LAPTIPUS04)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120165_Type">
+      <annotation>
+         <documentation>Jöt. 77. § (1a) szerinti eltávolítás és megsemmisítés vagy felülragasztással érvénytelenítés</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0FXXXXC50120A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorszám (P05_SORSZ_01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="5"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0FXXXXC50121A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kezdő sorszám (P05_SZORSTOL_01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0FXXXXC50122A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Záró sorszám (P05_SZORSZIG_01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0FXXXXC50123A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Darabszám (P05_DARAB_01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="7"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0FXXXXC50124A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Bizonylat száma (P05_BIZONYLAT_01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="64"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_J08_120164_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0FXXXXC00504A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(LAPTIPUSP05)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0FXXXXB50117A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (LAPSZAMP05)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+</schema>
